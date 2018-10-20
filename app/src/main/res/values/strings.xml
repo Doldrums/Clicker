@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Clicker</string>
+    <string name="main_start_text">JUST DO IT</string>
+    <string name="time_text">00:00</string>
+    <string name="start_text">START</string>
+    <string name="begin_text">Let\'s begin!</string>
+    <string name="result_text">Total</string>
+    <string name="restart_text">PLAY ONE MORE TIME</string>
 </resources>

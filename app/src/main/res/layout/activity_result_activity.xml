@@ -1,38 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Result_activity"
-    android:background="@drawable/start_back"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_result">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <android.support.v7.widget.CardView
-        android:layout_width="351dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="91dp" >
+        <android.support.v7.widget.CardView
+            android:layout_width="322dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_gravity="center_horizontal|top"
-            android:layout_width="wrap_content"
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginStart="66dp"
+                android:text="@string/result_text"
+                android:textSize="27dp" />
+
+            <TextView
+                android:id="@+id/text_result"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_marginBottom="45dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="30dp"
+                android:gravity="end"
+                android:text="ooooo00000000000000000000000000000000000000000000000000000000000000000000000000"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="185dp"
+        android:layout_height="213dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/picture" />
+    <FrameLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="200dp">
+        <ImageView
+            android:id="@+id/image_mark_good"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
-            android:text="Ваш результат"
-            android:textSize="27dp"
-            />
-        <TextView
-            android:id="@+id/text_result"
-            android:layout_gravity="center_horizontal|top"
-            android:layout_marginTop="30dp"
-            android:layout_width="wrap_content"
+            android:alpha="0.8"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/good_job" />
+        <ImageView
+            android:id="@+id/image_mark_bad"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
-            android:text="ooooo"
-            android:textColor="@color/colorAccent"
-            android:textSize="25dp"/>
-    </android.support.v7.widget.CardView>
-</LinearLayout>
+            android:alpha="0.8"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/failed" />
+        <ImageView
+            android:id="@+id/image_mark_great"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/great_job" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_restart"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="50dp"
+        android:layout_marginStart="35dp"
+        android:text="@string/restart_text"
+        android:textSize="20sp"/>
+
+
+</FrameLayout>
+
+
