@@ -6,13 +6,11 @@ The whole game consists of the main screen, the game screen and the results scre
 ### Gratitude
 Many thanks to the authors which are mentioned above for access to all the drawings on the Internet :)
 ### Screenshots are presented below:
-![Login Screen](https://github.com/Doldrums/Clicker/blob/master/Or0GKY30RN0.jpg)
-#
-![Feed Screen](https://github.com/Doldrums/Clicker/blob/master/2-vi-qQKaX4.jpg)
-#
-![Notification Screen](https://github.com/Doldrums/Clicker/blob/master/IB-3xIt5QZw.jpg)
-#
-![Notification Screen](https://github.com/Doldrums/Clicker/blob/master/nqQKCOYXsrk.jpg)
-#
-![Dashboard Screen](https://github.com/Doldrums/Clicker/blob/master/6qLqcR9eZjI.jpg)
+<p>
+<img src="https://github.com/Doldrums/Clicker/blob/master/Or0GKY30RN0.jpg" width="200" height="350" />
+<img src="https://github.com/Doldrums/Clicker/blob/master/2-vi-qQKaX4.jpg" width="200" height="350" />
+<img src="https://github.com/Doldrums/Clicker/blob/master/IB-3xIt5QZw.jpg" width="200" height="350" />
+<img src="https://github.com/Doldrums/Clicker/blob/master/nqQKCOYXsrk.jpg" width="200" height="350" />
+<img src="https://github.com/Doldrums/Clicker/blob/master/6qLqcR9eZjI.jpg" width="200" height="350" />
+</p>
 
